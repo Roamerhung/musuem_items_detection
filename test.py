@@ -7,7 +7,7 @@ import open_clip
 
 # ✅ Load Pretrained DETR Model
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-50").to(device)
+model = DetrForObjectDetection.from_pretrained("facebook/net-50").to(device)
 processor = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50")
 model.eval()
 
