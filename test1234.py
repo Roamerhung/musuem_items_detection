@@ -16,7 +16,7 @@ clip_model, preprocess, _ = open_clip.create_model_and_transforms("ViT-B-32", pr
 tokenizer = open_clip.get_tokenizer("ViT-B-32")
 
 # ✅ Load Test Image from Your Dataset
-image_path = "/Users/roamerhung/Desktop/Dissertation Project/final dissertaion project/test_image5.jpg"
+image_path = "/Users/roamerhung/Desktop/Dissertation Project/final dissertaion project/musuem_items_detection/test_image5.jpg"
 image = Image.open(image_path).convert("RGB")
 
 # ✅ Run DETR Object Detection
